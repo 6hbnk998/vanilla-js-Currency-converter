@@ -1,3 +1,19 @@
+const mainF = async () =>{
+const axios_response = await axios.get('https://v6.exchangerate-api.com/v6/a90f76dc5d731b90f79a09ed/latest/USD')
+
+    console.log(axios_response)
+}
+
+
+// axios
+//     .get('https://v6.exchangerate-api.com/v6/a90f76dc5d731b90f79a09ed/latest/USD')
+//     .then((response)=>{
+//         console.log(response)
+//     })
+
+
+
+
 let rates = {
 }
 let usd_value = document.getElementById('cur-rate-dollar')
