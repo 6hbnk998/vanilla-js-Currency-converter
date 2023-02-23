@@ -1,3 +1,30 @@
+// const RATES = {
+//     usd: 0.014,
+//     eur: 0.013
+// }
+
+// const convert = (rub , currency ) =>{
+//     if(!RATES[currency]){
+//         return null;
+//     }
+//     return rub *  RATES[currency];
+// }
+
+valueInputNode.oninput = () =>{
+//     const rub = Number(valueInputNode.value)
+//     const currency = currencySelectorNode.value
+//     const result = convert(rub, currency)
+//     console.log(result)
+// }
+
+
+
+
+
+
+
+
+
 const mainF = async () =>{
 const axios_response = await axios.get('https://v6.exchangerate-api.com/v6/a90f76dc5d731b90f79a09ed/latest/USD')
 
